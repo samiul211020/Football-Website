@@ -1,0 +1,219 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/* style of cover section  */
+.first-section{
+    width: 100%;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-bottom: 100px;
+}
+.cover-division{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.first-section:hover .cover-info-photo img{
+        transform: scale(1.5);
+        transition: transform 1.5s ease-in-out;
+}
+
+.cover-info-photo img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.live-watch {
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+.live-watch p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.live-watch a{
+    text-decoration: none;
+    color: white;
+}
+
+.cover-photo img{
+    width: 100%;
+}
+/* cover section end  */
+
+/* second section start  */
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.players{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.player-photo img{
+    width: 100%;
+}
+
+
+/* styles of third section start  */
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.hightlights{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.highlight-info h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.highlight-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.highlight-photo img{
+    width: 100%;
+}
+
+/* styles of third section end  */
+
+/* Styles of forth section or footer section start */
+
+.forth-section{
+    background-color: #2D25A0;
+    padding-bottom: 100px;
+}
+.upper-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.info-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+
+}
+
+.apps h3{
+    color: white;
+}
+
+.apps img{
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.all-list ul{
+    color: white;
+    list-style: none;
+}
+
+.Social-links h3{
+    color: white;
+}
+
+.Social-links h1{ 
+    margin-top: 0px;
+    font-size: 70px;
+    color: white;
+}
+
+.lower-part{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.logo img{
+    width: 100%;
+}
+
+.copyright-info p{
+    color: white;
+    text-align: center;
+}
+
+/* Styles of forth section or footer section end */
+
+
+/* media queries  */
+
+/* mobile devices  */
+
+@media only screen and (max-width:688px){
+    
+    .cover-division{
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .cover-division img{
+        padding-top: 50px;
+    }
+    
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .hightlights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);   
+    }
+    .hightlights .highlight-photo img{
+        padding-top: 50px;
+    }
+
+    .info-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* media querie end  */
